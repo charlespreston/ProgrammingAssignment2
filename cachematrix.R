@@ -41,10 +41,10 @@ cacheSolve <- function(x, ...) {
 
 # Testing:
 # > i = makeCacheMatrix(matrix(rnorm(1000000),1000,1000))
-# > totaltime = system.time(cacheSolve(i)) ; totaltime
+# > system.time(cacheSolve(i))
 #    user  system elapsed 
 #   2.041   0.001   2.043 
-# > totaltime = system.time(cacheSolve(i)) ; totaltime
+# > system.time(cacheSolve(i))
 # getting cached data
 #    user  system elapsed 
 #   0.001   0.000   0.001
